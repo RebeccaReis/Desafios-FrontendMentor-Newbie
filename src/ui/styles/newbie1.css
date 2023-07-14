@@ -6,14 +6,16 @@
   justify-content: center;
   align-items: center;
   height: 100vh;
+  width: 100vw;
 }
 
 .center-container {
-  height: 40%;
+  height: 45%;
+  width: 45%;
   display: flex;
   flex-direction: row;
   border-radius: 10px;
-  box-shadow: 0 10px 10px rgb(244, 247, 254);
+  box-shadow: 0px 5px 50px rgb(233, 237, 253);
 }
 .result {
   display: flex;
@@ -29,13 +31,32 @@
     rgb(75, 54, 243) 40%,
     rgb(101, 65, 253)
   );
+  font-family: "Hanken Grotesk", sans-serif;
+  color:white;
 }
+.result .plus-informations{
+  font-family: "Hanken Grotesk", sans-serif;
+  font-size: 14px;
+  width: 70%;
+  text-align: center;
+  color: rgb(182,177,251);
+}
+.result .plus-informations h2{
+  color:rgb(252,252,247);
+  font-weight: 500;
+}
+.result span{
+  margin-bottom: 2rem;
+  color: rgb(175,164,241);
+  font-weight: 600;
+}
+.result
 .center-circle {
   display: flex;
   text-align: center;
   flex-direction: column;
   border-radius: 400px;
-  width: 50%;
+  width: 55%;
   height: 40%;
   background: linear-gradient(
     0deg,
@@ -43,20 +64,29 @@
     rgb(75, 54, 243) 40%,
     rgb(51, 44, 235)
   );
-  justify-content: space-around;
+
 }
 .center-circle h1 {
   color: rgb(255, 255, 255);
   font-weight: 800;
+  font-size:3rem;
   font-family: "Hanken Grotesk", sans-serif;
+  margin-bottom: 0;
+}
+.center-circle p{
+  margin-top: 0;
+  color: rgb(123,107,249);
+  font-weight: 600;
 }
 .sumary {
   display: flex;
   flex-direction: column;
   width: 50%;
-  height: 100%;
   text-align: start;
   background-color: rgb(255, 255, 255);
+  font-family: "Hanken Grotesk", sans-serif;
+  padding: 2rem;
+  font-weight: 600;
 }
 .topics {
   display: flex;
@@ -70,7 +100,22 @@
 .topic {
   display: flex;
   justify-content: space-between;
-  width: 100%;
+  width: 95%;
+  border-radius: 10px;
+  height: 15%;
+  align-items: center;
+}
+.red{
+  background-color: rgb(255,246,245);
+}
+.yellow{
+  background-color: rgb(255,251,242);
+}
+.green{
+  background-color: rgb(242,251,250);
+}
+.blue{
+  background-color: rgb(243,243,253);
 }
 .numbers {
   display: flex;
@@ -79,4 +124,7 @@
 }
 .simbol {
   display: flex;
+}
+.simbol span{
+  margin-left: 0.5rem;
 }

@@ -14,7 +14,7 @@ const NewBie1 = () => {
         <section className="result">
           <span>Your Result</span>
           <div className="center-circle">
-            <h1>71</h1>
+            <h1>76</h1>
             <p>of 100</p>
           </div>
           <div className="plus-informations">
@@ -28,7 +28,7 @@ const NewBie1 = () => {
         <section className="sumary">
           <span>Sumary</span>
           <section className="topics">
-            <div className="topic">
+            <div className="topic red">
               <div className="simbol">
                 <Reaction />
                 <span>Reaction</span>
@@ -39,7 +39,7 @@ const NewBie1 = () => {
                 <span> 100</span>
               </div>
             </div>
-            <div className="topic">
+            <div className="topic yellow">
               <div className="simbol">
                 <Memory />
                 <span>Memory</span>
@@ -50,7 +50,7 @@ const NewBie1 = () => {
                 <span> 100</span>
               </div>
             </div>
-            <div className="topic">
+            <div className="topic green">
               <div className="simbol">
                 <Verbal />
                 <span>Verbal</span>
@@ -61,7 +61,7 @@ const NewBie1 = () => {
                 <span> 100</span>
               </div>
             </div>
-            <div className="topic">
+            <div className="topic blue">
               <div className="simbol">
                 <Visual />
                 <span>Verbal</span>
