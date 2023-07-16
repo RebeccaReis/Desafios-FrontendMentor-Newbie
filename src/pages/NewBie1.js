@@ -26,7 +26,7 @@ const NewBie1 = () => {
           </div>
         </section>
         <section className="sumary">
-          <span>Sumary</span>
+          <span className="sum-title">Sumary</span>
           <section className="topics">
             <div className="topic red">
               <div className="simbol">
